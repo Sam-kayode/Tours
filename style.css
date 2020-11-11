@@ -9,7 +9,7 @@
 }
 
 html {
-    background: linear-gradient(to bottom,rgba(212, 147, 73, 0.75)10%,rgba(212, 147, 73, 0.75)19%,rgba(212, 147, 73, 0.75)25%,rgba(212, 147, 73, 0.75) 40%, rgba(212, 147, 73, 0.75) 55%, rgba(212, 147, 73, 0.75) 70%), url(image/pattern.jpg);
+    background: linear-gradient(to bottom,rgba(212, 147, 73, 0.75)10%,rgba(212, 147, 73, 0.75)19%,rgba(212, 147, 73, 0.75)25%,rgba(212, 147, 73, 0.75) 40%, rgba(212, 147, 73, 0.75) 55%, rgba(212, 147, 73, 0.75) 70%), url('https://res.cloudinary.com/sam-kay/image/upload/q_auto:low/tours-pyramids/pattern_tf3agd.jpg');
     background-size: contain;
     box-sizing:border-box;
     overflow-x:hidden;
@@ -27,7 +27,7 @@ header {
     width: 100%;
     height: 100vh;
     text-align: center;
-    background-image: url(image/cool.jpg);
+    background-image: url('https://res.cloudinary.com/sam-kay/image/upload/q_auto:low/tours-pyramids/cool_kccaxf.jpg');
     background-size: cover;
     background-position: center;
     padding:0;
@@ -263,8 +263,7 @@ label{
         margin-left: 7px;
     }
 
-    .big-h {
-    }
+   
 
     #first-par, #second-par {
         font-family: 'Architects Daughter';
@@ -532,7 +531,7 @@ label{
 	transition: .3s;
 }
  */
-    @media screen and (max-width: 685px) {
+    @media  (max-width: 685px) {
         .container-- {
             border: none;
             width: 100%;
@@ -554,7 +553,7 @@ label{
         }
     }
 
-    @media screen (min-width: 970px) {
+    @media (min-width: 970px) {
         .me {
             display: none;
         }
@@ -589,7 +588,7 @@ label{
         }
 
     #footer {
-        background-image: linear-gradient(to bottom,rgba(212, 147, 73, 0.5)10%,rgba(212, 147, 73, 0.5)19%, rgba(212, 147, 73, 0.5) 70%),url("image/desert1.png");
+        background-image: linear-gradient(to bottom,rgba(212, 147, 73, 0.5)10%,rgba(212, 147, 73, 0.5)19%, rgba(212, 147, 73, 0.5) 70%),url("https://res.cloudinary.com/sam-kay/image/upload/q_auto:low/tours-pyramids/desert1_z8qszw.png");
         background-size: cover;
         background-position-y: bottom;
         margin-top: -4px;
